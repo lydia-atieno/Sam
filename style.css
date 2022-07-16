@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 html{
     font-family: 'Itim', cursive;
     scroll-behavior: smooth;
-}
+}*/
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+html{
+    font-family: 'Lora', serif;
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
