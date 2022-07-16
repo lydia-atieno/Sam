@@ -42,7 +42,7 @@ body{
     margin-left: 30%;
     letter-spacing: .2rem;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
 }
 #header .nav-bar{
     display: flex;
@@ -198,7 +198,7 @@ a{
     background-color: white;
 }
 #title h3{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: white;
     font-weight: 500;
     letter-spacing: ;
@@ -211,7 +211,7 @@ a{
     margin-bottom: 20px;
     position: relative;
     color: lightblue;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     max-width: px;
     /*-webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0,0,0,0.2));*/
     animation: bounce .5s ease infinite alternate;
@@ -253,7 +253,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
 }
 #about .about-title{
     letter-spacing: .2rem;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 500;
     color: white;
     margin-bottom: 15px;
@@ -268,6 +268,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
     font-weight: 500;
     line-height: 24px;
     margin-top: 8px;
+    font-size: 1.1rem;
     /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
 }
 /*end about section*/
@@ -351,13 +352,13 @@ h2 span:nth-child(16){animation-delay: -15s;}
     box-shadow: 0px 0px 5px 0 rgb(5, 5, 111);
 }
 #contact .contact-item h2{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: 500;
     letter-spacing: .1rem;
 }
 #contact .contact-item h3{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: rgb(182, 233, 253);
     font-weight: 500;
     
@@ -391,7 +392,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
 #footer p{
     color: rgb(239, 241, 247);
     font-weight: 500;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: ;
     margin-top: 40px;
 }
