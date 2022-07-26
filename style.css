@@ -301,6 +301,8 @@ h2 span:nth-child(16){animation-delay: -15s;}
     font-weight: 500;
     color: white;
     margin-bottom: 15px;
+    border-bottom-style: dotted;
+    border-radius: 22%;
 }
 #about h1 span{
     color: black;
@@ -329,7 +331,8 @@ h2 span:nth-child(16){animation-delay: -15s;}
     font-size: 2.4rem;
     letter-spacing: .2rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
+    border-bottom-style: dotted;
 }
 #skills h1 span{
     color: black;
@@ -374,6 +377,8 @@ h2 span:nth-child(16){animation-delay: -15s;}
     font-size: 2.1rem;
     letter-spacing: .2rem;
     font-weight: 500;
+    border-bottom-style: dotted;
+    border-radius: 22%;
 }
 #contact h1 span{
     color: black;
