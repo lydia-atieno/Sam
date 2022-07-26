@@ -293,7 +293,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
     border-top-style: dotted;
     border-bottom-style: dotted;
     /*background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);*/
-    background: forestgreen;
+    background: green;
 }
 #about .about-title{
     letter-spacing: .2rem;
