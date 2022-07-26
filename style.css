@@ -407,7 +407,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
 }
 #contact .contact-item h2{
     font-size: 1.2rem;
-    color: white;
+    color: black;
     font-weight: 500;
     letter-spacing: .1rem;
 }
