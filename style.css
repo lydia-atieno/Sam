@@ -302,7 +302,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
     margin-bottom: 15px;
 }
 #about h1 span{
-    color: darkcyan;
+    color: black;
 }
 #about p{
     color: rgb(187, 233, 251);
@@ -331,7 +331,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
     margin-bottom: 20px;
 }
 #skills h1 span{
-    color: darkcyan;
+    color: black;
 }
 #skills h2{
     width: 80%;
