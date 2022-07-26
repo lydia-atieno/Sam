@@ -332,6 +332,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
     letter-spacing: .2rem;
     font-weight: 500;
     margin-bottom: 22px;
+    border-radius: 35%;
     border-bottom-style: dotted;
 }
 #skills h1 span{
