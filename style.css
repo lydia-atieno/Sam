@@ -37,10 +37,45 @@ body{
     height: auto;
     left: 0;
     top: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);
 }
+
+#header .header{
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: px;
+    padding-bottom: px;
+}
+#header .header::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, #000 13px);
+
+}
+#header .header::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 15px;
+    background-size: 40px 20px;
+    background-image: radial-gradient(circle at 10px 15px, #000 12px, transparent 13px);
+}
+
 #header .header{
     min-height: 8vh;
-    background-color: rgb(21, 66, 202);
+    /*background-color: rgb(21, 66, 202);*/
 }
 #header .brand h1{
     color: white;
@@ -144,7 +179,7 @@ body{
     position: absolute;
     height: 5px;
     width: 48px;
-    left: ;
+    left: 1px;
     background-color: white;
     transition: all .5s ease-in-out;
     border-radius: 8px;
@@ -180,7 +215,7 @@ body{
 
 /*title section*/
 #title{
-    background-color: darkblue;
+    background-color: black;
 }
 #title .container{
     flex-direction: column;
@@ -193,10 +228,10 @@ a{
 .cta{
     font-size: 1.2rem;
     letter-spacing: .2rem;
-    border: 2px solid royalblue;
+    border: 2px solid black;
     padding: 2px 16px;
     margin-bottom: 25px;
-    background-color: royalblue;
+    background-color: cyan;
 }
 .cta:hover{
     color: black;
@@ -204,7 +239,7 @@ a{
 }
 #title h3{
     font-size: 1.8rem;
-    color: white;
+    color: #27b6b9;
     font-weight: 500;
     letter-spacing: ;
     font-style: ;
@@ -251,10 +286,13 @@ h2 span:nth-child(16){animation-delay: -15s;}
 
 /*about section*/
 #about .about{
-    background-color: rgb(21, 66, 202);
+    /*background-color: rgb(21, 66, 202);*/
     display: flex;
     flex-direction: column;
     min-height: 105vh;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);
 }
 #about .about-title{
     letter-spacing: .2rem;
@@ -280,9 +318,10 @@ h2 span:nth-child(16){animation-delay: -15s;}
 
 /*skills section*/
 #skills .skills{
-    background-color: rgb(21, 66, 202);
+    /*background-color: rgb(21, 66, 202);*/
     flex-direction: column;
     min-height: 130vh;
+    background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);
 }
 #skills .skills-title{
     color: white;
@@ -320,11 +359,14 @@ h2 span:nth-child(16){animation-delay: -15s;}
 
 /*contact section*/
 #contact .contact{
-    background-color: rgb(21, 66, 202);
+    /*background-color: rgb(21, 66, 202);*/
     flex-direction: column;
     max-width:;
     margin: 0 auto;
     min-height: 205vh;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);
 }
 #contact .contact-title{
     color: white;
