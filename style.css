@@ -97,7 +97,7 @@ body{
 #header .nav-list ul{
     list-style: none;
     position: absolute;
-    background-color: rgb(21, 66, 202);
+    background-color: darkcyan;
     width: 100vw;
     height: 100vh;
     left: 100%;
@@ -428,7 +428,7 @@ h2 span:nth-child(16){animation-delay: -15s;}
     font-size: 1.2rem;
 }
 #footer h3 span{
-    color: rgb(21, 66, 202);
+    color: darkcyan;
 }
 #footer h4{
     color: rgb(239, 241, 247);
