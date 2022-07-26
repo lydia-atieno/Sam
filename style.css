@@ -292,7 +292,8 @@ h2 span:nth-child(16){animation-delay: -15s;}
     min-height: 105vh;
     border-top-style: dotted;
     border-bottom-style: dotted;
-    background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);
+    /*background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);*/
+    background: forestgreen;
 }
 #about .about-title{
     letter-spacing: .2rem;
