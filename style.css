@@ -482,3 +482,31 @@ h2 span:nth-child(16){animation-delay: -15s;}
     }
 }
 /*End Media Query For Desktop*/
+
+@media only screen and (min-width:768px){
+    #about .about-items{
+        display: flex;
+    }
+    #about img{
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    #about p{
+        font-size: 1.5rem;
+        margin-top: 54px;
+    }
+    #skills .skills{
+        min-height: 90vh;
+    }
+    #skills .skills-items{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+    }
+    #contact .contact{
+        min-height: 120vh;
+    }
+    #contact .contact-items{
+        display: flex;
+    }
+}
