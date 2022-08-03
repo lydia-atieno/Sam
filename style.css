@@ -335,11 +335,14 @@ h2 span:nth-child(16){animation-delay: -15s;}
     border-radius: 35%;
     border-bottom-style: dotted;
 }
+#skills .skills-items{
+    margin-right: 80px;
+}
 #skills h1 span{
     color: black;
 }
 #skills h2{
-    width: 80%;
+    width: 120%;
     padding: 20px;
     text-align: center;
     letter-spacing: .1rem;
